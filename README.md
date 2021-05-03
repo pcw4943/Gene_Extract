@@ -9,3 +9,4 @@ Then, you just tell the program what folder the genomes are stored in, how many 
 A new folder will be created for each genome called <genome_name>_data_, and these folders will contain the extracted hit genes as well as some data files.
 
 Compile using the command g++ -std=c++11 ming_pipeline ming_pipeline.cpp
+Run using ./ming_pipeline <genome dir> <number of HMMs> <HMM 1 path> <HMM 2 path> ... <HMM 1 name> <HMM 2 name> ...
