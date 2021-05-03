@@ -7,3 +7,5 @@ For example, if you want to extract all of the luxI and luxR genes from a bunch 
 Then, you just tell the program what folder the genomes are stored in, how many HMMs are being used, and the paths to each HMM file.
 
 A new folder will be created for each genome called <genome_name>_data_, and these folders will contain the extracted hit genes as well as some data files.
+
+Compile using the command g++ -std=c++11 ming_pipeline ming_pipeline.cpp
